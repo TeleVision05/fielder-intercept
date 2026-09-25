@@ -1,0 +1,8 @@
+# Runtime
+matplotlib>=3.10
+numpy>=2.3
+pygame>=2.6
+# Optional: only cricket3d.py needs this
+ursina>=8.1
+# Tests
+pytest>=8

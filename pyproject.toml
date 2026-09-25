@@ -1,0 +1,25 @@
+[project]
+name = "fielder-intercept"
+version = "0.1.0"
+description = "Cricket fielder intercept simulation: pure intercept math plus matplotlib, pygame and ursina front-ends"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10",
+    "numpy>=2.3",
+    "pygame>=2.6",
+]
+
+[project.optional-dependencies]
+3d = ["ursina>=8.1"]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["fielder_intercept"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,56 @@
+# Virtual environments
+venv/
+.venv/
+venv_*/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Editors / OS
+.cursor/
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Model weights / large binaries
+*.pt
+*.pth
+*.onnx
+*.dat
+*.bz2
+*.safetensors
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.gif
+
+# Generated output dumps
+output/
+outputs/
+*.out.csv
+*.out.json
+unit_circle_degrees.png
+
+# JS (none today, kept for safety)
+node_modules/
